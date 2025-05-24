@@ -1,12 +1,10 @@
-- 👋 Hi, I’m @SmartTableNZ
-- 👀 I’m interested in ...
-- 🌱 I’m currently learning ...
-- 💞️ I’m looking to collaborate on ...
-- 📫 How to reach me ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
-
-<!---
-SmartTableNZ/SmartTableNZ is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My GitHub Pages Site</title>
+</head>
+<body>
+  <h1>Welcome to My Website</h1>
+  <p>This is my first GitHub Pages site.</p>
+</body>
+</html>
