@@ -4,19 +4,22 @@
   box-sizing: border-box;
   font-family: 'Roboto', sans-serif;
 }
+
 body {
   line-height: 1.6;
   color: #333;
   background-color: #f4f4f4;
 }
+
 header {
   background-color: transparent;
   padding: 20px;
-  position: sticky; /* Sticky floating header */
+  position: sticky;
   top: 0;
-  z-index: 999; /* Ensure it's on top of all content */
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Optional shadow for visibility */
+  z-index: 999;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
+
 header nav {
   display: flex;
   justify-content: space-between;
@@ -24,11 +27,12 @@ header nav {
   max-width: 1100px;
   margin: 0 auto;
 }
+
 header nav a {
-  color: white;
   text-decoration: none;
   margin-left: 20px;
 }
+
 .header-box {
   background-color: #1b3662;
   max-width: 900px;
@@ -38,27 +42,76 @@ header nav a {
   border: 1px solid #ccc;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
 }
+
 .header-box nav {
   display: flex;
   justify-content: space-between;
-  align-items: center; /* Ensures vertical centering */
-  height: 100%; /* Make sure it stretches full height if needed */
+  align-items: center;
+  height: 100%;
 }
+
+.nav-links {
+  display: flex;
+  align-items: center;
+}
+
 .nav-links a {
   color: white;
   text-decoration: none;
   margin-left: 20px;
   font-weight: 500;
 }
+
+/* Dropdown container */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown content */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: white;
+  min-width: 220px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+  border-radius: 8px;
+  overflow: hidden;
+  top: 100%;
+  left: 0;
+}
+
+/* Show dropdown on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Dropdown links */
+.dropdown-content a {
+  color: #1b3662;
+  padding: 12px 16px;
+  display: block;
+  text-decoration: none;
+  background-color: white;
+  font-weight: 500;
+}
+
+.dropdown-content a:hover {
+  background-color: #f0f0f0;
+}
+
 .logo {
   display: flex;
-  align-items: center; /* Vertically centers the image within the nav bar */
+  align-items: center;
 }
+
 .logo img {
   height: 50px;
   width: auto;
-  display: block; /* Removes inline whitespace */
+  display: block;
 }
+
 .top-curve {
   position: relative;
   width: 100%;
@@ -72,46 +125,47 @@ header nav a {
   height: 100px;
 }
 
-/* Existing hero section styles */
 .hero {
   background: #f4f4f4;
   padding: 80px 20px;
   text-align: center;
 }
-.hero {
-  background: #f4f4f4;
-  padding: 80px 20px;
-  text-align: center;
-}
+
 .hero h1 {
   font-size: 2.5rem;
   margin-bottom: 10px;
 }
+
 .hero p {
   font-size: 1.2rem;
 }
+
 .section {
   padding: 60px 20px;
   max-width: 1100px;
   margin: 0 auto;
 }
+
 .features {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   gap: 30px;
 }
+
 .feature {
   padding: 20px;
   background: #fafafa;
   border: 1px solid #ddd;
   border-radius: 8px;
 }
+
 footer {
   text-align: center;
   padding: 20px;
   background-color: #1b3662;
   color: white;
 }
+
 .product-dropdown {
   max-width: 800px;
   margin: 40px auto;
@@ -123,29 +177,4 @@ footer {
 
 .product-dropdown h2 {
   margin-bottom: 15px;
-  color: #1b3662;
-  text-align: center;
-}
-
-.product-dropdown details {
-  cursor: pointer;
-  font-size: 1.1rem;
-}
-
-.product-dropdown summary {
-  font-weight: bold;
-  padding: 10px;
-  background-color: #1b3662;
-  color: white;
-  border-radius: 8px;
-  margin-bottom: 10px;
-}
-
-.product-dropdown ul {
-  padding-left: 20px;
-  list-style: disc;
-  margin-top: 10px;
-}
-.product-dropdown li {
-  margin-bottom: 10px;
-}
+  col
