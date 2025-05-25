@@ -13,6 +13,10 @@ header {
   background-color: #1b3662;
   color: white;
   padding: 20px;
+  position: sticky; /* Sticky floating header */
+  top: 0;
+  z-index: 999; /* Ensure it's on top of all content */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Optional shadow for visibility */
 }
 header nav {
   display: flex;
@@ -49,9 +53,14 @@ header nav a {
   margin-left: 20px;
   font-weight: 500;
 }
+.logo {
+  display: flex;
+  align-items: center; /* Vertically centers the image within the nav bar */
+}
 .logo img {
   height: 50px;
   width: auto;
+  display: block; /* Removes inline whitespace */
 }
 .top-curve {
   position: relative;
