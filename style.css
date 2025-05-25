@@ -105,3 +105,40 @@ footer {
   background-color: #1b3662;
   color: white;
 }
+.product-dropdown {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+  background: #ffffff;
+  border-radius: 12px;
+  border: 1px solid #ccc;
+}
+
+.product-dropdown h2 {
+  margin-bottom: 15px;
+  color: #1b3662;
+  text-align: center;
+}
+
+.product-dropdown details {
+  cursor: pointer;
+  font-size: 1.1rem;
+}
+
+.product-dropdown summary {
+  font-weight: bold;
+  padding: 10px;
+  background-color: #1b3662;
+  color: white;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.product-dropdown ul {
+  padding-left: 20px;
+  list-style: disc;
+  margin-top: 10px;
+}
+.product-dropdown li {
+  margin-bottom: 10px;
+}
