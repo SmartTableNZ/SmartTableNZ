@@ -39,7 +39,8 @@ header nav a {
 .header-box nav {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: center; /* Ensures vertical centering */
+  height: 100%; /* Make sure it stretches full height if needed */
 }
 
 .nav-links a {
