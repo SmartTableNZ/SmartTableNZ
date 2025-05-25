@@ -182,16 +182,25 @@ footer {
   line-height: 2;
 }
 
-.contract-grid {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 30px;
-  max-width: 900px;
+.pricing-2x2 {
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+  max-width: 1000px;
   margin: 0 auto;
+  flex-wrap: wrap;
+}
+
+.pricing-col {
+  flex: 1 1 400px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
 }
 
 @media (max-width: 768px) {
-  .contract-grid {
-    grid-template-columns: 1fr;
+  .pricing-2x2 {
+    flex-direction: column;
+    align-items: center;
   }
 }
