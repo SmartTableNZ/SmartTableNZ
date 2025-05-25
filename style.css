@@ -177,3 +177,7 @@ footer {
 .product-dropdown h2 {
   margin-bottom: 15px;
   col
+  
+.feature p br + br {
+  line-height: 2;
+}
