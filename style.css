@@ -10,8 +10,7 @@ body {
   background-color: #f4f4f4;
 }
 header {
-  background-color: #1b3662;
-  color: white;
+  background-color: transparent;
   padding: 20px;
   position: sticky; /* Sticky floating header */
   top: 0;
@@ -31,14 +30,13 @@ header nav a {
   margin-left: 20px;
 }
 .header-box {
-  background-color: white;
+  background-color: #1b3662;
   max-width: 900px;
   margin: 0 auto;
   padding: 20px 30px;
   border-radius: 15px;
   border: 1px solid #ccc;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
-  margin-top: 20px;
 }
 .header-box nav {
   display: flex;
@@ -46,9 +44,8 @@ header nav a {
   align-items: center; /* Ensures vertical centering */
   height: 100%; /* Make sure it stretches full height if needed */
 }
-
 .nav-links a {
-  color: #1b3662;
+  color: white;
   text-decoration: none;
   margin-left: 20px;
   font-weight: 500;
