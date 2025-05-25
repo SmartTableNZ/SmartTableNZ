@@ -181,3 +181,17 @@ footer {
 .feature p br + br {
   line-height: 2;
 }
+
+.contract-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+  .contract-grid {
+    grid-template-columns: 1fr;
+  }
+}
