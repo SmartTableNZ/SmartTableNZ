@@ -26,6 +26,27 @@ header nav a {
   text-decoration: none;
   margin-left: 20px;
 }
+.header-box {
+  background-color: white;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px 30px;
+  border-radius: 15px;
+  border: 1px solid #ccc;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+.header-box nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-links a {
+  color: #1b3662;
+  text-decoration: none;
+  margin-left: 20px;
+  font-weight: 500;
+}
 .logo img {
   height: 50px;
   width: auto;
